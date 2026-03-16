@@ -159,7 +159,7 @@ pip install tensorflow tensorflow-datasets
 3. Run all cells: `Runtime → Run all`
 4. The trained model is saved to `/content/stanford_dogs.h5`
 
-### Save model to Google Drive (recommended — prevents loss on disconnect)
+### Save model
 ```python
 from google.colab import drive
 drive.mount("/content/drive")
